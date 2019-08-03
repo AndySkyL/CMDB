@@ -1,0 +1,35 @@
+2019-07-29 16:52:06,881 - cmdb - ERROR - log:Traceback (most recent call last):
+  File "D:\python\cmdb_client\src\plugins\disk.py", line 21, in linux
+    with open(os.path.join(self.base_dir,'file','disk.out')) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\python\\cmdb_client\\file\\disk.out'
+
+2019-07-29 17:06:04,039 - cmdb - ERROR - log:Traceback (most recent call last):
+  File "D:\python\cmdb_client\src\plugins\disk.py", line 21, in linux
+    with open(os.path.join(self.base_dir,'file','disk.out')) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\python\\cmdb_client\\file\\disk.out'
+
+2019-07-29 17:06:04,044 - cmdb - ERROR - log:Traceback (most recent call last):
+  File "D:\python\cmdb_client\src\plugins\memory.py", line 22, in linux
+    with open(os.path.join(self.base_dir, 'file', 'memory.out')) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\python\\cmdb_client\\file\\memory.out'
+
+2019-07-29 17:33:38,727 - cmdb - ERROR - log:Traceback (most recent call last):
+  File "D:\python\cmdb_client\src\plugins\disk.py", line 21, in linux
+    with open(os.path.join(self.base_dir,'file','disk.out')) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\python\\cmdb_client\\file\\disk.out'
+
+2019-07-29 17:33:38,728 - cmdb - ERROR - log:Traceback (most recent call last):
+  File "D:\python\cmdb_client\src\plugins\memory.py", line 22, in linux
+    with open(os.path.join(self.base_dir, 'file', 'memory.out')) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\python\\cmdb_client\\file\\memory.out'
+
+2019-07-29 17:36:03,052 - cmdb - ERROR - log:Traceback (most recent call last):
+  File "D:\python\cmdb_client\src\plugins\disk.py", line 21, in linux
+    with open(os.path.join(self.base_dir,'file','disk.out')) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\python\\cmdb_client\\file\\disk.out'
+
+2019-07-29 17:36:03,053 - cmdb - ERROR - log:Traceback (most recent call last):
+  File "D:\python\cmdb_client\src\plugins\memory.py", line 22, in linux
+    with open(os.path.join(self.base_dir, 'file', 'memory.out')) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\python\\cmdb_client\\file\\memory.out'
+

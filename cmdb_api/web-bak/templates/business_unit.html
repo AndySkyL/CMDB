@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+    <a href="{% url 'business_unit_add' %}" class="btn btn-primary">添加</a>
+    <table class="table table-bordered table-hover">
+    <thead>
+    <tr>
+        <th>序号</th>
+        <th>名称</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+
+    {% for business_unit in all_business_unit  %}
+
+        <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ business_unit.name }}</td>
+        <td>
+            <a href="{% url 'business_unit_edit' business_unit.pk %}"><i class="fa fa-edit"></i></a>
+            <a href=""><i class="fa fa-trash-o"></i></a>
+        </td>
+        </tr>
+    {% endfor %}
+
+
+    </table>
+{% endblock %}
